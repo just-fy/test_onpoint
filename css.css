@@ -1,0 +1,115 @@
+/*@media only screen*/
+/*and (min-device-width: 768px)*/
+/*and (max-device-width: 1024px)*/
+/*and (orientation: landscape) {*/
+    /**/
+/*}*/
+@font-face {
+    font-family: GothamPro;
+    src: url(fonts/GothamPro/GothamPro-Light.ttf);
+    src: local(GothamPro), url(fonts/GothamPro/GothamPro-Light.ttf);
+}
+body {
+    margin: 0 auto;
+}
+.first-page {
+    background: url("images/background_first-page.png") no-repeat;
+}
+.second-page {
+    background: url("images/background_second--page.png") no-repeat;
+}
+.third-page {
+    background: url("images/background_third-page.png") no-repeat;
+}
+.background {
+    margin: 0;
+    width: 100%;
+    background-size: contain;
+    height: 768px;
+}
+.title {
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 1.2;
+    font-family: "GothamPro", sans-serif;
+    margin: 0;
+    color: #fff;
+}
+.first-page__header {
+    width: 705px;
+    padding-top: 100px;
+    margin-left: 46px;
+}
+.second-page__header {
+    width: 685px;
+    margin: 0 auto;
+    padding-top: 250px;
+}
+.third-page__header {
+    padding-top: 80px;
+    padding-left: 70px;
+}
+.third-page__header--title {
+    font-size: 30px;
+}
+.first-page__header--title {
+    color: rgb(13, 49, 156);
+}
+.second-page__header--title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.scroll-button {
+    position: absolute;
+    left: 47%;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    line-height: 1.2;
+    font: normal 14px "GothamPro", sans-serif;
+    text-decoration: none;
+    transition: opacity .3s;
+}
+.first-page__button-scroll-down {
+    bottom: 50px;
+}
+.scroll-button:hover {
+    opacity: .5;
+}
+.second-page__button-scroll-down {
+    bottom: -96%;
+}
+.pointer-down {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
+.controls {
+    position: relative;
+    top: 45%;
+    margin-right: 30px;
+}
+.control {
+    margin-bottom: 10px;
+    margin-left: auto;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    transition: opacity .3s;
+}
+.control:hover {
+    opacity: .5;
+}
+
+
